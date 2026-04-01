@@ -1,0 +1,313 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Inconsolata', serif;
+}
+#logo {
+	display: block;
+	position: fixed;
+} 
+h1 {  
+    display: inline-block;
+	position: relative;
+	float: left;
+	
+}
+h1 {
+	font-family: "Times New Roman Bold", serif;
+	font-style: italic;
+    margin: 0 28px 0 10px;
+	z-index: 2;
+}
+.topnav {
+	padding-right: 5px;
+	position: relative;
+	top: 13.3px;
+}
+.contact-btn {
+  float: right;
+  margin-top: -4px;
+  display: inline;
+}
+#email-form {
+	margin-bottom: 297px;
+}
+.contact-btn a {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 1px 3px;
+  border: 1px solid black;
+  margin: 0px 50px 0px 0px;
+  padding: 0px;
+}
+.contact-btn a:active {
+top: 2px;
+}
+#contact_form {
+	position: relative;
+    text-align: center;
+}
+#submit_button {
+	cursor: pointer;
+	background-color: white;
+	border: 1px solid black;
+	margin-top: 2px;
+}
+.leftmenu {
+	margin: 100px 0px 0px 12px;
+	position: relative;
+	z-index: 1;
+	float: left;
+}
+.submenu {
+	display: none;
+}
+.submenu2 {
+	display: none;
+}
+.submenu3 {
+	display: none;
+
+}
+.submenu4 {
+	display: none;
+}
+li {
+	margin-left: 3px;
+	list-style-type: none;
+}
+h3 {
+    font-family: 'Inconsolata', serif;
+	font-size:14px;
+	font-weight: normal;
+	text-align: justify;
+	position: relative;
+	z-index: 2;
+	margin: 240px auto 50px auto;
+	width: 44%;
+	max-width: 845px;
+}
+#textbreak {
+	border-top: .01px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 35px;
+	width: 100%;
+	max-width: 845px;
+	display: block;
+	color: rgb(211,211,211);
+	background-color: rgb(211,211,211);
+}
+.titles {
+	font-size: 18px;
+	font-weight: bold;
+}
+#lewestern {
+	z-index: 3;
+	position: relative;
+	margin-bottom: 120px;
+}
+#thedarktriad {
+	margin-bottom: 152px;
+}
+#threesevenace {
+	margin-top: -99px;
+	margin-bottom: 78px;
+	
+}
+#cloudburst {
+    margin-bottom: 184px
+}
+h4 {
+	font-family: 'Inconsolata', serif;
+	text-align: center;
+	border-style: solid;
+	border-width: medium;
+	margin-bottom: 7px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 640px;
+	display: block;
+	padding: 0%;
+	box-sizing: border-box;
+}
+hr {
+	font-family: 'Inconsolata', serif;
+	border-style: solid;
+	border-width: 2px;
+	margin-bottom: 7px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 640px;
+	display: block;
+	color: black;
+
+}
+footer {
+    font-family: 'Inconsolata', serif;
+	font-size: 14px;
+	margin-top: 7px;
+	text-align: center;
+	bottom: 0;
+	margin: auto;	
+}
+.lmenuheaders {
+	margin-bottom: 7px;
+}
+li {
+	margin-bottom: 5px;
+}
+#meme {
+	border: solid;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 180px;
+	margin-top: -45px;
+	height: 506px;
+	width: 506px;
+	text-align: justify;
+}
+#barnsdall {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 94px;
+	height: 475px;
+	width: 841px;
+	text-align: justify;
+	border: solid;
+}
+#fabio {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 94px;
+	height: 632px;
+	width: 841px;
+	border: solid;
+	margin-top: -112px;
+	text-align: justify;
+}
+.texttrans {
+	margin-bottom: 20px;
+}
+
+.visuals {
+	margin-top: -40px;
+	position: relative;
+}
+#cv {
+	margin-top: -50px;
+	margin-bottom: 186px;
+}
+#welcome {
+	margin-left: auto;
+	margin-right: auto;
+	height: 525px;
+	width: 841px;
+	text-align: center;
+	color: white;
+}
+#bk {
+	width: 100%;
+	text-align: center;
+	display: block;
+	margin-bottom: 500px;
+	color: white;
+}
+html, body {
+	height: 100%;
+	margin: 0;
+}
+#container {
+	min-height: 100%;
+	margin-bottom: -78px;
+}
+#pagemark, #push {
+	height: 78px;
+}
+#pagemark {
+	position: relative;
+	bottom: 0px;
+	right: 25%;
+	left: 50%;
+	margin-left: -320px;
+	width: 640px;
+	display: block;
+}
+.card {
+    margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.cardLeft {
+  border: 1px solid;
+  border-radius: 5px;
+  height: 70px;
+  padding: 0 .5em 0 .5em;
+  text-align: center;
+  width: 50px;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.tens {
+  border: 1px solid;
+  border-radius: 5px;
+  height: 70px;
+  padding: 0 .85em 0 .15em;
+  text-align: center;
+  width: 50px;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: none;
+}
+.cards {
+  border: 1px solid;
+  border-radius: 5px;
+  height: 70px;
+  padding: 0 .65em 0 .35em;
+  width: 50px;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: none;
+  font-size: 24px;
+}
+.cardCenter {
+  border: 1px solid;
+  border-radius: 5px;
+  height: 70px;
+  padding: 0 .5em;
+  text-align: center;
+  width: 50px;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.cardRight {
+  border: 1px solid;
+  border-radius: 5px;
+  height: 70px;
+  padding: 0 .5em;
+  text-align: center;
+  width: 50px;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.redSuit {
+  color: #C23B22;
+}
+
+.blackSuit {
+  color: #3b3c36;
+}
+
+
